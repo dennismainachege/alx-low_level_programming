@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * main - Aprogram to show value of comp types
+ * main - A program to shows the values of different computer types 
+ *
  * return: 0 (success)
  */
 int main(void)
