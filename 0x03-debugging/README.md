@@ -1,1 +1,1 @@
-this is a folder where i practice my debuuging skill
+this is folder where i do deburging
