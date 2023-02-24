@@ -1,2 +1,1 @@
-this is file where i do my debburging
-
+this is a folder where i practice my debuuging skill
