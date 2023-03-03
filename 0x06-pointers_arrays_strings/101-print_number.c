@@ -1,18 +1,26 @@
 #include "main.h"
-
 /**
- * _strcpy - Copy a string
- * @dest: Destination value
- * Return: the pointer to dest
+ *print_number - prints an integer.
+ *only using the putchar function.
+ *noarrays and pointers.
+ *@n: integer to be printed.
+ *Return: void.
  */
-
-char *_strcpy(char *dest, char *src)
+void print_number(int n)
 {
-	int i;
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		dest[i] = src[i];
-	}
-	dest[i++] = '\0';
-	return (dest);
+unsigned int num;
+
+/*check if number is negative*/
+num = n;
+if (n < 0)
+{
+_putchar(45);
+num = -n;
+}
+/* print number by recursion*/
+if (num / 10)
+{
+print_number(num / 10);
+}
+_putchar((num % 10) + '0');
 }
