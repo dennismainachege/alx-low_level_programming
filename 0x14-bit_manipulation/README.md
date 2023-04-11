@@ -1,0 +1,2 @@
+e bit manipultion
+
