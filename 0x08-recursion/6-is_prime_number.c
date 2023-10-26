@@ -1,7 +1,7 @@
 #include "main.h"
 #include<stdio.h>
 
-int check_prime(int n, inti);
+int check_prime(int n, int i);
 
 /**
  * is_prime_number - returns if a number is prime number
@@ -18,7 +18,7 @@ int is_prime_number(int n)
  * @i: the interation time
  * Return: 1 for prime of composite
  */
-int check_prime(intn, int i)
+int check_prime(int n, int i)
 {
 	if (n <= 1)
 	{
